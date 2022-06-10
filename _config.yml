@@ -1,0 +1,48 @@
+# App Info
+# Automatically populates if not set and if iOS app ID is set. Otherwise enter path to icon file manually.
+ios_app_id: 
+app_icon:
+app_name:
+app_price:
+enable_smart_app_banner: true
+###
+app_id_documents: 
+app_id_browser: 
+
+title: 3Submarine 
+email: support@2submarine.com
+description: >- # this means to ignore newlines until "baseurl:"
+  3Submarine develops apps and games that make your life simpler. 
+  We do complex things in a click and solve ten tasks with one tool. 
+  Because simple is best.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://3submarine.com/" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: jekyllrb
+# github_username:  jekyll
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - share/index.html
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
